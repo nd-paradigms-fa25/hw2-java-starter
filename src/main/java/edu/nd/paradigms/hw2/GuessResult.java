@@ -1,5 +1,7 @@
 package edu.nd.paradigms.hw2;
 
+import static edu.nd.paradigms.hw2.LetterResult.*;
+
 /**
  * This class handles getting the result from a guess in a Wordle Game. This class is used by
  * {@link GameState#submitGuess(String)}.
@@ -47,7 +49,7 @@ public class GuessResult {
      * function is case-insensitive.
      */
     public LetterResult[] getLetterResults() {
-        //TODO: Stub
+        var resultArray = new LetterResult[]{GRAY, GRAY, GRAY, GRAY, GRAY};
         return null;
     }
 

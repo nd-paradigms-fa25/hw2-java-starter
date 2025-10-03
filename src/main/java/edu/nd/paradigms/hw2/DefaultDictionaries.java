@@ -17,12 +17,12 @@ public class DefaultDictionaries {
     /**
      * The resource location of the list of Guesses used by the NYTimes Wordle game
      */
-    public static final String GUESSES_DICTIONARY_FILENAME = "default_dictionaries/default_guesses.txt";
+    public static final String GUESSES_DICTIONARY_FILENAME = "default_guesses.txt";
 
     /**
      * The resource location of the last list of answers using by the NYTimes Wordle game
      */
-    public static final String ANSWERS_DICTIONARY_FILENAME = "default_dictionaries/default_answers.txt";
+    public static final String ANSWERS_DICTIONARY_FILENAME = "default_answers.txt";
 
     private static Dictionary guessesDictionaryMemo;
     private static Dictionary answersDictionaryMemo;
